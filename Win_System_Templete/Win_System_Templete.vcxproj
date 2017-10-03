@@ -149,7 +149,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdderProcess.cpp" />
+    <ClCompile Include="CreateProcess.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="WinSysDir.cpp" />
     <ClCompile Include="Win_System_Templete.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
